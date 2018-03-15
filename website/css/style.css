@@ -77,14 +77,29 @@ span.psw {
     }
 }
 
-.homepage{background-image: url(../images/Untitled-1.png); background-size: auto}
+.homepage{
+	background-image: url(../images/Untitled-1.png);
+	background-size: auto;
+	display: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
 .playbutton{
     text-align: center;
 	width: 300px;
 	border-radius: 8px;
-}
+	background-color: #F27115;}
 
 .wrapper{
     text-align: center;
+}
+
+.contain {
+	width: 125px;
+	height: 100px;
+	background-color: #5A80A7;
+	border-radius: 8px;
+	text-align: center;
 }
