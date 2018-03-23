@@ -55,10 +55,6 @@ img.avatar {
     border-radius: 50%;
 }
 
-/* Add padding to containers */
-.container {
-    padding: 16px;
-}
 
 /* The "Forgot password" text */
 span.psw {
@@ -97,9 +93,76 @@ span.psw {
 }
 
 .contain {
-	width: 125px;
 	height: 100px;
-	background-color: #5A80A7;
-	border-radius: 8px;
+	background-color: #033F75;
 	text-align: center;
+	padding-left: 0px;
+	font-size: 3em;
+	color: #FFFFFF;
 }
+
+.leaderclass {
+	max-height: 75px;
+	text-align: center;
+	background-color: #DFDFDF;
+	border-radius: 8px;
+	width: 600px;
+}
+
+.icon {
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+.navbarlead {background-color: #033F75;
+color: #FFFFFF}
+
+.number {
+	margin-top: 30%;	
+}
+
+.arena1{
+	background-image: url(../images/OpenSpace_filter.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 175px;
+	display: table-row;	
+}
+
+.arena2{
+	background-image: url(../images/Canteen_filter.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 175px;
+	display: table-row;	
+	
+}
+
+.arena3{
+	background-image: url(../images/Entrance_filter.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 175px;
+}
+.arenatext {
+	font-size: 5em;
+	color: #FFFFFF;	
+}
+
+.lobbytimer{
+	
+	background-color: #033F75;
+}
+
+.lobbytext {
+	text-align: center;
+	font-size: 2em;	
+}
+
+.buttonhtp {
+	width: 30%;
+	background-color: #F27115;
+	text-align: center;
+	
+}
+.centerallign{text-align: center}

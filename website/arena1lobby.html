@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>arena1lobby</title>
+
+	
+			
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	
+	
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	
+	
+</head>
+
+	
+	
+	
+	
+	
+<body>
+	
+	
+	<div class="container-fluid lobbytimer">
+	
+		
+<div class="contain">
+	<div id="safeTimer">
+<h2>Game Timer</h2>
+<p id="safeTimerDisplay">00:30</p>
+</div>
+</div>	
+	
+	
+		
+		
+		
+	
+		
+		
+	
+	
+	
+	
+<script>
+var myVar = setInterval(function(){ myTimer() }, 1000);
+var secondlimit = 60;
+
+function myTimer() {
+if(secondlimit == 0)
+{
+    myStopFunction();
+}
+
+document.getElementById("safeTimerDisplay").innerHTML = '00:' + zeroPad(secondlimit,2);
+secondlimit = secondlimit  - 1;
+
+}
+
+function myStopFunction() {
+    clearInterval(myVar);
+}
+
+function zeroPad(num, places) {
+  var zero = places - num.toString().length + 1;
+  return Array(+(zero > 0 && zero)).join("0") + num;
+}
+
+</script>
+	
+	
+	
+	
+	</div>
+	
+	
+<div class="container">
+		
+	<br>
+	
+	<p class="lobbytext">
+		Hey there
+		
+		
+		
+		
+		
+		
+		
+		</p>
+		
+		
+		
+		
+		
+		
+		
+		</div>	
+			
+	
+	
+	
+		
+	
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>	
+</body>
+</html>
