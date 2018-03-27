@@ -1,62 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link href="css/form.css" rel="stylesheet" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" /> 
+  
+  <link rel="stylesheet" href="css/PR8Login.css"/>
+  
 </head>
-
 <body>
 
-	
-	
-	
-	
-	
-	
 <form action="/action_page.php">
-  <div class="container">
-    <h2 style="text-align: center">Welcome to NHTVision</h2>
-    <p style="text-align: center">Fill in your email address to start! </br></br> You can subscribe for the Creative Lab newsletter to stay up to date regarding workshops, projects and LabTalks. By signing up you'll be the first to know about all the latest innovative things in the media!</p>
-  </div>
-  <div class="container">
-    <input type="text" placeholder="Email address" name="mail">
-    <label>
-      <input type="checkbox" checked="checked" name="subscribe"> Sign me up for the Creative Lab newsletter
+	<div class="container-fluid">
+  <div class="logo"> 
+		
+	  <img src="images/Logo_BUrn-GAME_V4.png" alt="burnlogo" style="border: 10px;width: auto; height: 150px">
+	  </div>
+ 
+	</div>
+	
+	
+	<div class="container" style="background-color:#f1f1f1">
+   
+		<label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+		
+		
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+     
+		<label>
+      <input type="checkbox" name="remember"> Remember me
     </label>
+		
+		<br>
+		
+		<button class="loginbtn"> <a href="homescreen.html"> Login </a></button>
+   
   </div>
-<a href="start.html">
- 	<button type="button" style="background-color: #F27115">Continue</button>
-    
- 	</a>
-</form>
 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-  crossorigin="anonymous"></script>
+  <div class="container">
+	  <a href="SignUp.html"> 
+		  <button type="button" class="signupbtn"> <a href="SignUp.html"> You don't have an account yet?   <b>Sign Up</b> here! </a> </button>
+	  </a>
+  
+	  <br>
+	  <br>
+	  
+	  <button type="button" class="cancelbtn">Cancel</button>
+	  
+	  
+	   <button type="button" class="forgotpassbtn">Forgot password?</button>
+	 
+     
+    
+    
+  </div>
+</form>
+
+
+  
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 </html>

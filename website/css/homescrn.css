@@ -48,12 +48,14 @@ span.psw {
 
 body {
 	background-image: url(../images/NHTV-Building_filter.jpg);
-	background-size: auto;
+background-size: cover;
 	display: center;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 	
 }
 
@@ -62,8 +64,6 @@ body {
 .logo{
 	display: block;
 	margin-right: auto;
-	width: 100%;
-	height: 200px;
 	align-content: center;
 	text-align: center;
 		
@@ -71,25 +71,42 @@ body {
 
 .playbutton{
 	text-align: center;
-	font-size: 3.5112500em;
+	font-size: 2.3em;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	border-radius: 50%;
-	width: 400px;
-	height: 120px;
+	border-radius: 78px / 70px;
+	width: 250px;
+	height: 50px;
 	background-color: #F27115;
+	padding-top: 0px;
 }
 
 .homescrbutton{
-    text-align: center;
-	font-size: 2.40112500em;
+	text-align: center;
+	font-size: 1.8em;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	border-radius: 50%;
-	width: 400px;
-	height: 120px;
+	width: 250px;
+	height: 50px;
 	background-color: #F27115;
+	border-radius: 78px / 70px;
+	padding-bottom: 30px;
+	padding-top: 5px;
 }
+
+.homescrbuttonlead{
+	text-align: center;
+	font-size: 1.8em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 250px;
+	height: 50px;
+	background-color: #F27115;
+	border-radius: 78px / 70px;
+	padding-top: 5px;
+	
+}
+
 
 .wrapper{
     text-align: center;
@@ -112,17 +129,13 @@ a {
 }
 
 .logout{
-	width 200px;
 	color: #FFFFFF;
 	font-size: 1em;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	border-top-left-radius: 5px;
+	border-radius: 78px / 70px;
+	width: 70px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 20px;
 }
 
-.smallbutton{
-	width: 20%;
-	text-align: right;
-	right: 50%;	
-}
+

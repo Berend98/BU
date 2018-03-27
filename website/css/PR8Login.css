@@ -35,7 +35,7 @@ button:hover {
 
 .loginbtn {
     text-align: center;
-	font-size: 2.6112500em;
+	font-size: 2.00em;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	background-color: #F27115;
@@ -45,7 +45,7 @@ button:hover {
 
 .signupbtn {
     text-align: center;
-	font-size: 1.500750002em;
+	font-size: 1em;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	background-color: #D58957;
@@ -53,8 +53,8 @@ button:hover {
 
 
 .cancelbtn {
-    text-align: center;
-	font-size: 1.500750002em;
+	text-align: center;
+	font-size: 1em;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	width: 30%;
@@ -63,8 +63,8 @@ button:hover {
 }
 
 .forgotpassbtn {
-    text-align: center;
-	font-size: 1.500750002em;
+	text-align: center;
+	font-size: 1em;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	float: right;
@@ -129,14 +129,7 @@ a:hover {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-	height: 200px;
 	align-content: center;
 	text-align: center;
 		
 }
-
-
-
-
-
