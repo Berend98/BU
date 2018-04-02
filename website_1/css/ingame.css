@@ -4,7 +4,7 @@
 
 body {
 	background-image: url(../images/entrance+game_elements.jpg);
-	background-size: 100%;
+	background-size: cover;
 	display: center;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
