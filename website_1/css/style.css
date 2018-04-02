@@ -1,0 +1,282 @@
+@charset "utf-8";
+.sign
+{align-content: center;}
+.form-signin-heading{align-content: center;}
+
+.form-signin {align-content: center;}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    text-align: center;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.homepage{
+	display: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.playbutton{
+    text-align: center;
+	width: 300px;
+	border-radius: 8px;
+	background-color: #F27115;
+	color: #F8F8F8; }
+
+.wrapper{
+    text-align: center;
+}
+
+.contain {
+	height: 100px;
+	text-align: center;
+	padding-left: 0px;
+	font-size: 3em;
+	color: #F27115;
+}
+.arenaset {
+	margin-top: -39px;	
+}
+.leaderclass {
+	max-height: 75px;
+	text-align: center;
+	width: 100%;
+	border-bottom-width: 2px;
+	border-bottom-color: #C1C1C1;
+	border-bottom-style: solid;
+}
+
+.contain {
+	height: 100px;
+	text-align: center;
+	padding-left: 0px;
+	font-size: 3em;
+	color: #F27115; }
+	
+.icon {
+	margin-top: 6px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.navbarlead {background-color: #033F75;
+color: #FFFFFF;}
+
+.number {
+	margin-top: 5px;	
+}
+
+.arena1{
+	background-image: url(../images/OpenSpace_filter.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 160px;
+	display: table-row;	
+}
+
+.arena2{
+	background-image: url(../images/Canteen_filter.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 160px;
+	display: table-row;	
+	
+}
+  
+.backbtn {
+	text-align: center;
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: white;
+	opacity: 0.8;
+	border: 2px solid white;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	margin-bottom: 50px;
+	position: static;
+}
+	
+.nextbtn {
+    text-align: center;
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: white; 
+	opacity:0.8;
+	border: 2px solid white;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	float: right;
+}
+.arena3 {
+	background-image: url(../images/Entrance_filter.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 160px;
+}
+	
+.arenatext {
+	font-size: 5em;
+	color: #FFFFFF;	
+}
+
+.lobbytimer{
+	
+}
+
+.lobbytext {
+	text-align: center;
+	font-size: 2em;	
+	color: #033F75;
+}
+
+.buttonhtp {
+	width: 30%;
+	background-color: #F27115;
+	text-align: center;
+	
+}
+.centerallign{text-align: center}
+
+
+a {	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	}
+
+body {
+	background-image: url(../images/BG.png);
+background-size: cover;
+	display: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+	
+}
+
+
+.leadercontain {
+	text-align: center;
+	align-content: center;
+}
+
+.leadhead {
+	text-align: center;
+	font-size: 3em;
+	margin-top: -20px;
+}
+
+.playbutton{
+	text-align: center;
+	font-size: 2.3em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 78px / 70px;
+	width: 250px;
+	height: 50px;
+	background-color: #F27115;
+	padding-top: 0px;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: #033F75;	
+}
+	
+a:hover {
+	text-decoration: none;
+	color: #033F75;
+}
+	
+p {
+	text-decoration: none;
+	text-align: center;
+	color: #033F75;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	text-align: justify;
+	
+}
+
+p:hover {
+	text-decoration: none;
+	color: #033F75;
+	
+}

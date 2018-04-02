@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+
+	
+p {
+	text-decoration: none;
+	text-align: center;
+	color: #F27115;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	
+}
+
+p:hover {
+	text-decoration: none;
+	color: #F27115
+	
+}

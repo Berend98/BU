@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+button {
+    background-color: #F27115;
+	
+    color: white;
+  
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+body {
+	background-image: url(../images/Backstory_Blank_1.jpg);
+	background-size: cover;
+	display: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+}
+
+
+
+.logo{
+	display: block;
+	margin-right: auto;
+	align-content: center;
+	text-align: center;
+		
+}
+
+.playbutton{
+	text-align: center;
+	align-content: center;
+	font-size: 2.3em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 78px / 70px;
+	width: 250px;
+	height: 70px;
+	background-color: #F27115;
+}
+
+.homescrbutton{
+	text-align: center;
+	font-size: 1.8em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 250px;
+	height: auto;
+	background-color: #F27115;
+	border-radius: 78px / 70px;
+	
+}
+
+.homescrbuttonlead{
+	text-align: center;
+	font-size: 1.8em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 250px;
+	height: auto;
+	background-color: #F27115;
+	border-radius: 78px / 70px;
+	
+
+	
+}
+
+
+.wrapper{
+    text-align: center;
+}
+
+.contain {
+	width: 125px;
+	height: 100px;
+	background-color: #5A80A7;
+	border-radius: 8px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	
+	
+	
+}
+
+.logout{
+	color: #FFFFFF;
+	font-size: 1em;
+	border-radius: 78px / 70px;
+	width: 70px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.creditbtn {
+	text-align: center;
+	font-size: 1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 90px;
+	height: auto;
+	background-color: #F27115;
+	border-radius: 78px / 70px;
+	
+	
+}
+
+.aboutbtn {
+	text-align: center;
+	font-size: 1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-left: 60px;
+	width: 90px;
+	height: auto;
+	background-color: #F27115;
+	border-radius: 78px / 70px;
+	
+}
+
+p {
+	text-decoration: none;
+	text-align: center;
+	color: #033F75;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	background: #5A80A7;
+	
+}
+
+p:hover {
+	text-decoration: none;
+	color: #033F75;
+	
+}
+
+.backbtn {
+    text-align: center;
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: white; 
+	opacity:0.8;
+	border: 2px solid white;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	margin-bottom: 5px;
+	
+	
+}
+
+
+.nextbtn {
+	font-size: 1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: white; 
+	opacity:0.8;
+	border: 2px solid white;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	display:inline-block;
+
+
+}
+
+
+
+.historybtn {
+	text-align: center;
+	padding: 20px;
+	align-content: center;
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 39px / 35px;
+	width: 80%;
+	height: auto;
+	background-color: #5A80A7;
+	
+}
+

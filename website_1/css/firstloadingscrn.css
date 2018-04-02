@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+button {
+    background-color: #F27115;
+    color: white;
+    padding: 4px 4px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+.loginbtn {
+    text-align: center;
+	font-size: 2.00em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: #F27115;
+	height: auto;
+	
+}
+
+.signupbtn {
+    text-align: center;
+	font-size: 1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: #D58957;
+}
+
+
+.cancelbtn {
+	text-align: center;
+	font-size: 1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 30%;
+	height: auto;
+	background-color: #5A80A7;
+}
+
+.forgotpassbtn {
+	text-align: center;
+	font-size: 1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: right;
+	width: 30%;
+	height: auto;
+	background-color: #5A80A7;
+}
+
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+
+.container {
+	text-align: center;
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+	text-decoration: none;
+}
+
+span.pswe {
+    float: right;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: #033F75;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1em;
+	
+	
+	
+}
+
+a:hover {
+	text-decoration: none;
+	color: #033F75;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	text-align: center;
+	width: auto;
+	
+		
+}
+.right {
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	margin-left: 0px;
+	width: 80%;
+	height: auto;
+	align-content: center;
+}

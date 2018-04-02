@@ -1,0 +1,227 @@
+@charset "utf-8";
+.sign
+{align-content: center;}
+.form-signin-heading{align-content: center;}
+
+.form-signin {align-content: center;}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+body {
+	background-image: url(../images/BG.png);
+	background-size: cover;
+	display: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+	
+	
+	
+}
+
+
+.playbutton{
+    text-align: center;
+	width: 300px;
+	border-radius: 8px;
+	background-color: #F27115;}
+
+.wrapper{
+    text-align: center;
+}
+
+.contain {
+	height: 100px;
+	background-color: #033F75;
+	text-align: center;
+	padding-left: 0px;
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
+
+.leaderclass {
+	max-height: 75px;
+	text-align: center;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.icon {
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+.navbarlead {
+	color: #033F75;
+	font-size: 1.8em;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+
+.number {
+	margin-top: 30%;	
+}
+
+.arena1{
+	background-image: url(../images/OpenSpace_filter.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 175px;
+	display: table-row;	
+}
+
+.arena2{
+	background-image: url(../images/Canteen_filter.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 175px;
+	display: table-row;	
+	
+}
+
+.arena3{
+	background-image: url(../images/Entrance_filter.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 175px;
+}
+.arenatext {
+	font-size: 5em;
+	color: #FFFFFF;	
+}
+
+.lobbytimer{
+	
+	background-color: #033F75;
+}
+
+.lobbytext {
+	text-align: center;
+	font-size: 2em;	
+}
+
+.buttonhtp {
+	width: 30%;
+	background-color: #F27115;
+	text-align: center;
+	
+}
+.centerallign{text-align: center}
+
+h3 {
+	font-size: 1em;
+	
+}
+
+
+.backbtn {
+    text-align: center;
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: white; 
+	opacity:0.8;
+	border: 2px solid white;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	margin-bottom: 50px;
+	
+	
+}
+
+
+.nextbtn {
+    text-align: center;
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: white; 
+	opacity:0.8;
+	border: 2px solid white;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	float: right;
+
+}
+
+.titel {
+	text-decoration: none;
+	text-align: center;
+	color: #033F75;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.8em;
+	
+}
+
